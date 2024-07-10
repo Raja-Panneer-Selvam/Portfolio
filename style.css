@@ -1,0 +1,69 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(121,32,153,1) 86%);
+    font-family:sans-serif, 'Arial';
+    line-height: 1.6;
+}
+
+
+/* bg animation */
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.back{
+    background-image: url('./images/pic1.jpg');
+}
+
+
+
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+#hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+  
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
